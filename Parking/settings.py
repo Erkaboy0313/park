@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mhkmcl#b=lvcx)47g41jc%j=%&g$qwfd#$82h2==14kf!b70=f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['eric0011.pythonanywhere.com']
+ALLOWED_HOSTS = ['eric0011.pythonanywhere.com','127.0.0.1','159.89.168.102']
 
 AUTH_USER_MODEL = 'user.CustomUser'
 
